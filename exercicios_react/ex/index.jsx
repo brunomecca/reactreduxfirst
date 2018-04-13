@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Primeiro, { Segundo } from './component'
+import Family from './family'
+import Member from './member'
 
-//passando um argumento para a funcao do component
 ReactDOM.render(
-    <div>
-        <Primeiro value = "ae" />
-        <Segundo />
-    </div>
-, document.getElementById('app'))
+    <Family lastName="Dois">
+        <Member name="Um" />
+        <Member name="Três"/>
+        <Member name="Quatro"/>
+    </Family>
+    , document.getElementById("app")
+)
+

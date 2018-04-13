@@ -12,3 +12,12 @@ export default props => (
 // export default (props) => (
 //     <h1>{props.value}</h1>
 // )
+
+//forma padrao
+// function ae () {
+//     console.log()
+// }
+
+//function ae (props) {}
+//props => {return ()}
+//props => ()
