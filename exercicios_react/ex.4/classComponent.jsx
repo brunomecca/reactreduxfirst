@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class ClassComponent extends Component{
     constructor(props){
         //super obrigatório
-        super()
+        super(props)
         //state vem de component
         //state vai receber um objeto que contém um atributo value
         //o atributo value vai receber o valor setado em initialValue na chamada deste Component
